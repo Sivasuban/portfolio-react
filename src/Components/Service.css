@@ -1,0 +1,38 @@
+.justify{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow-x: hidden;  */
+}
+.hg{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    
+
+}
+.txt{
+    color: red;
+    text-shadow:2px 2px rgb(0, 242, 255);
+    /* -webkit-text-stroke: white; */
+}
+.lg2{
+    border: 1px solid rgb(255, 252, 252);
+   box-shadow: 5px 5px 20px  red;
+   /* height: 100vh; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+
+}
+.style1{ 
+    height: fit-content;
+    width:288px ;
+}
+@media (max-width: 400px) {
+   .style1{
+    width: 13rem;
+   }
+  }

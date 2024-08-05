@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.lg {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  overflow-y: auto;
+}
+
+.lg1 {
+  border: 1px solid rgb(255, 252, 252);
+  box-shadow: 5px 5px 20px red;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.ml {
+  padding: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.footr {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  width: 100%;
+}
+
+.child {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.box {
+  width: 140px;
+  height: auto;
+  text-shadow: 2px 2px rgb(255, 0, 0);
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  transition: 0.5s linear;
+  position: relative;
+  padding: 15px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.box:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(100%);
+}
+
+.box:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-top: 4px solid transparent;
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(-100%);
+}
+
+.box:hover {
+  box-shadow: 0 5px 15px rgb(0, 242, 255);
+  background-color: white;
+  color: black;
+  text-shadow: none;
+}
+
+.box:hover:after {
+  border-color: red;
+  height: 100%;
+  transform: translateX(0);
+  transition: 0.3s transform linear, 0.3s height linear 0.3s;
+}
+
+.box:hover:before {
+  border-color: rgb(0, 242, 255);
+  height: 100%;
+  transform: translateX(0);
+  transition: 0.3s transform linear, 0.3s height linear 0.5s;
+}
+
+.button1 {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: no-drop !important;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.icon {
+  font-size: 25px;
+}
+
+.skill-name {
+  font-size: 28px;
+}
