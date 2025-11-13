@@ -13,13 +13,13 @@
 
 }
 .txt{
-    color: red;
+    color: #e4e3d7;
     text-shadow:2px 2px rgb(0, 242, 255);
     /* -webkit-text-stroke: white; */
 }
 .lg2{
     border: 1px solid rgb(255, 252, 252);
-   box-shadow: 5px 5px 20px  red;
+   box-shadow: 5px 5px 20px  #e4e3d7;
    /* height: 100vh; */
    display: flex;
    justify-content: center;

@@ -1,3 +1,8 @@
+/* *{
+  color: #f3e8e0 !important;
+
+  background-color:#0f445c  !important;
+} */
 .background {
     min-height: 100vh;
     width: 100vw;
@@ -8,6 +13,11 @@
     background-color: black;
     color: white;
     overflow-x: hidden;
+  }
+  .Firstletter::selection{
+    /* background-color: yellow; */
+    background-color: blue;
+    color: red;
   }
   
   h1 {
@@ -26,7 +36,8 @@
   
   .outside img {
     margin-right: 20px;
-    box-shadow: 1px 1px 3px 6px red;
+    box-shadow: 1px 1px 3px 6px  #cccab0;
+    
     margin-top: 20px;
   }
   

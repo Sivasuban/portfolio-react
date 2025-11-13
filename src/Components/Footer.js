@@ -5,10 +5,10 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <>
-      <div className='border2 '>
-        <div className='d-flex '><span className='custom-icon '>S</span>
+      <div className='border2'>
+        <div className='d-flex '><a href='/' className='none'><span className='custom-icon '>S</span></a>
         </div> 
-        <h3 className='text-center footr-txt-clr'> ❛❛ It always seems impossible until it's done ! ❜❜</h3>
+        <h3 className='text-center footr-txt-clr mt-3 selection'> ❛❛ It always seems impossible until it's done ! ❜❜</h3>
 
         <div className="child">
           <a href="mailto:sivasubangopal@gmail.com" target="_blank" rel="noopener noreferrer" style={{ color: 'rgb(0, 242, 255)' }}>

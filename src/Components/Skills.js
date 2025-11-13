@@ -1,6 +1,6 @@
 import React from 'react';
 import './Skills.css';
-import Footer from './Footer';
+
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaJs, FaReact, FaJava, FaPython, FaDatabase, FaNode, FaCode, FaCuttlefish, FaPhp } from 'react-icons/fa';
 
 function Skills() {
@@ -20,14 +20,14 @@ function Skills() {
   ];
 
   return (
-    <div className='lg container-fluid'>
-      <h1 className='text-center txt'>Skills</h1>
+    <div className='lg container-fluid pb-5'>
+      <h1 className='text-center txt '>Skills</h1>
       <div className='lg1'>
         <div className='ml'>
           <div className='d-flex justify-content-center align-items-center'>
-            <div className='row'>
+            <div className='row container'>
               {skills.map((skill, index) => (
-                <div key={index} className='col-6 col-sm-6 col-md-4 col-lg-4'>
+                <div key={index} className='col-12 col-sm-6 col-md-4 col-lg-4'>
                   <button className='button1'>
                     <span className="box">
                       <span className="icon">{skill.icon}</span>
@@ -40,9 +40,7 @@ function Skills() {
           </div>
         </div>
       </div>
-      <div className='footr'>
-        <Footer />
-      </div>
+      
     </div>
   );
 }

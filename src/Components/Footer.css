@@ -12,7 +12,11 @@
 
   }
   
+  .selection::selection{
+    background-color: red;
+    color: white;
   
+  }
   .child {
     display: flex;
     justify-content: center;
@@ -30,11 +34,14 @@
   
   .mt1 {
     margin-top: 1rem;
-    color: red;
+    color: #e4e3d7;
   }
   
   .copyright {
     font-size: 1rem; /* Default font size */
+  }
+  .none{
+    text-decoration: none;
   }
   
   @media (max-width: 768px) {

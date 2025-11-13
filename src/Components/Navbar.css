@@ -1,5 +1,5 @@
 #basic-navbar-nav {
-    margin-left: 250px;
+    margin-left: 230px;
     overflow-x: hidden;
   }
   .custom-icon {
@@ -9,12 +9,13 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: red;
-    color: white !important; 
+    background-color: #3ebdc6;
+    color: #e4e3d7 !important; 
     font-size: 24px;
     font-weight: bold;
     text-align: center;
-    /* box-shadow: 0 5px 15px red; */
+    box-shadow: 0px 0px 3px 6px  #cccab0;
+    
 
   }
   
@@ -28,13 +29,13 @@
   }
   
   #basic-navbar-nav .li:hover ,  #basic-navbar-nav .li1:hover {
-    background-color: rgb(0, 242, 255);
-    color: rgb(255, 0, 0);
-    box-shadow: 0 5px 15px red;
+    background-color: black;
+    color: #cccab0;
+    box-shadow: 0 5px 15px #cccab0;
   }
   
   #basic-navbar-nav .li.active {
-    color: red !important;
+    color: #cccab0 !important;
   }
   
   .Navbar {
@@ -45,7 +46,18 @@
   
   @media (max-width: 12000px) {
     #basic-navbar-nav {
-      margin-left: 150px;
+      margin-left: 140px;
       overflow-x: hidden;
     }
   }
+  @media (max-width: 991px) {
+    #basic-navbar-nav {
+      margin-left: auto;
+      overflow-x: hidden;
+    }
+    #basic-navbar-nav .li,  #basic-navbar-nav .li1{
+      margin-left: auto;
+    }
+  }
+
+ 

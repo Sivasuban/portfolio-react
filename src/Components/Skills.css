@@ -15,7 +15,7 @@ body {
 
 .lg1 {
   border: 1px solid rgb(255, 252, 252);
-  box-shadow: 5px 5px 20px red;
+  box-shadow: 5px 5px 20px #e4e3d7;
   overflow-x: hidden;
   display: flex;
   justify-content: center;
